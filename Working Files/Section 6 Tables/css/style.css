@@ -1,0 +1,32 @@
+table,td,th {
+    border: 2px solid green;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+table {
+    margin-top: 20px; 
+    /* width: 250px;
+    height: 100px; */
+    width: 20%;
+    height: 120px;
+}
+
+table-caption {
+    color: firebrick;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+thead {
+    background-color: violet;
+}
+
+tfoot {
+    background-color: purple;
+}
+
+/* td:nth-child(odd) {
+    color: red;
+    font-weight: bold;
+} */
