@@ -1,0 +1,52 @@
+#L1{
+    background-color: lightblue;
+    
+}
+
+#L2{
+    background-color: lightgreen;
+    
+}
+
+#L3{
+    background-color: lightred;
+    
+}
+
+a:link {
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:visited {
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: tomato;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:active {
+    color:green;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-left: 10px;
+    list-style-image: url('H:\htmlcss\htmlcss\Working Files\Section 4 Links\images\star.gif'); 
+}
