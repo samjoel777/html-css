@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Forms</title>
+<link rel="stylesheet" href="H:\htmlcss\htmlcss\Working Files\Section 7 Forms\css\style.css">
 <style>
 
 </style>
@@ -10,54 +11,70 @@
 
 <body>
 <h1>Forms</h1>
+<form action="/users" method="GET">
+    <!-- <form action="/users" method="POST"></form> -->
+<fieldset class="fieldset">
+    <legend>Personal Information</legend>
 
-First Name:
+First Name: <input type="text" name='fname' value='' placeholder=" SARELLA SAM JOEL" autofocus> 
 
 <br/>
-Email:
+Email: <input type="email" name='email' value="" placeholder="samsarella7777@gmail.com" autofocus>
 
 <br/>
-Checkbox:
-check 1
-check 2
+
+Password: <input type="password" name="password" autofocus required>
+
 <br/>
-Radio:
-radio 1
-radio 2
+
+</fieldset>
+
+<fieldset class="fieldset">
+    <legend>Additional Information</legend> 
+Food: 
+Noodles <input type="checkbox" name="item1" id="item1" value="">
+Fried-Rice <input type="checkbox" name="item2" id="item2" value="">
 <br/>
-Message:
+Gender:
+Male <input type="radio" name="gender" value="male">
+Female <input type="radio" name="gender" value="female">
+<br/>
+Message: <textarea name="msg" id="msg" cols="30" rows="10" autofocus></textarea>
+
 
 <br/>
 Dropdown:
-
-Option 1
-Option 2
-Option 3
-Option 4
-Option 5
+<select name="city">
+<option value="hyd">HYD</option> 
+<option value="ap">AP</option>
+<option value="goa">GOA</option>
+<option value="pune">PUNE</option>
+</select>
+<br/>
 
 <br/>
-Password:
-
-<br/>
-Number: 
+Number: <input type"Number" name="num" autofocus>
 
 <br/>
 Range: 
-1 10
+1 <input type="range" name="range" min="1" max="10" > 10
 <br/>
-Date: 
-
-<br/>
-Time: 
+Date: <input type="date" name="date"> 
 
 <br/>
-Color: 
+Time: <input type="time" name="time">
+
+<br/>
+Color: <input type="color">
 
 
 <br/>
 
+</fieldset>
+
+<input type="submit" name="" value="send data">
 
 
+</form>
 </body>
 </html>

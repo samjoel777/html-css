@@ -3,35 +3,58 @@
 <head>
 <meta charset="utf-8">
 <title>Coffee Survey</title>
+<link rel="stylesheet" href="H:\htmlcss\htmlcss\Working Files\Website Project\css\survey_style.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
 
 </head>
 
 <body>
 
-Coffee Survey
+<h1>Coffee Survey</h1> 
+<br>
 
-Your Name
+<form action="/users" method="GET">
+    <fieldset>
+        <legend>Fill In The Details</legend>
+Your Name: <input type="text" name="fname" id="fname" autofocus>
 
-Email Address
+<br>
+
+Email Address: <input type="email" name="email" id="email" autofocus>
+
+<br>
 
 Tell us your coffee preparation methods.
+<textarea name="prep_method" id="prep_method"></textarea>
+<br><br>
 
 Do you grind your own beans?
-yes
-no
+&nbsp;    yes <input type="radio" name="boolean" value="" >
+&nbsp;    no  <input type="radio" name="boolean" value="" >
+<br>
 
 How do you drink your coffee?
-with sugar
-with cream
+&nbsp;    with sugar <input type="checkbox" name="sugar" value="">
+&nbsp;    with cream <input type="checkbox" name="cream" value="">
+<br>
 
 What is your favorite coffee drink?
 
 please select a drink
-drip coffee
-french press
-espresso
-latte
-flavored
+drip coffee <input type="checkbox" name="drink1" value="">
+french press <input type="checkbox" name="drink2" value="">
+espresso <input type="checkbox" name="drink3" value="">
+latte <input type="checkbox" name="drink4" value="">
+flavored <input type="checkbox" name="drink5" value="">
+
+    </fieldset>
+
+<!-- <input type="submit" name="submit" id="sub" value="send data">     -->
+<input type="submit" class="btn btn-dark"></button>
+
+</form>
 
 </body>
 </html>

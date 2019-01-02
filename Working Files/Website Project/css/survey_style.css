@@ -1,0 +1,14 @@
+h1{
+    color: hex #6f4e37;
+}
+
+fieldset{
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(29, 8, 8); 
+}
+
+body input{
+    margin-top: 20px;
+}
+
